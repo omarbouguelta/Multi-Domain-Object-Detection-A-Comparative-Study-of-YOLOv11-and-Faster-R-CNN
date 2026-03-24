@@ -84,4 +84,16 @@ The research concludes that:
 * **YOLOv11** is the optimal choice for **Dynamic Environments** (Self-driving cars, live surveillance).
 * **Faster R-CNN** is the optimal choice for **Static, High-Stake Environments** (Medical imaging, Strategic aerial analysis).
 
+---
 
+##  Implementation & Experimental Demos
+
+This repository provides a complete end-to-end pipeline, from camouflaged dataset training to real-world inference.
+
+### 1. Training Workflow (Scorpion Dataset)
+* **[Scorpion Training Pipeline](./RCNN/scorpion_training_faster_rcnn.ipynb):** Comprehensive training script utilizing Faster R-CNN with a ResNet-50 backbone. 
+  * **Highlights:** Custom loss tracking (RPN vs. Classification), data augmentation for low-salience targets, and loss convergence visualization.
+
+### 2. Inference & Evaluation
+* **[Single Image Test Bench](./RCNN/single_image_test_model.ipynb):** Used for precision verification on high-resolution stills. It automatically calculates **Inference Latency (ms)** and generates bounding boxes with confidence scores.
+* **[Video Detection ](./RCNN/video_test_model_resnet.ipynb):** A frame-by-frame inference script designed to process recorded .mp4 or .avi files. This tool is essential for benchmarking model performance on long-duration footage, allowing for the analysis of temporal consistency and detection stability across pre-recorded environmental sequences.

@@ -71,7 +71,9 @@ Models were developed using a standardized pipeline to ensure fair comparison:
 2. **Precision vs. Recall:** Faster R-CNN achieved a perfect F1-score in specialized tasks, proving more reliable for "Zero-Failure" applications like satellite-based strategic planning.
 3. **Class Confusion Analysis:** Through Normalized Confusion Matrices, it was observed that YOLOv11 struggled with **low-salience objects** and similar vehicle shapes, whereas Faster R-CNN’s two-stage refinement successfully differentiated between Vans and Trucks.
 
-> <img width="1192" height="673" alt="image" src="https://github.com/user-attachments/assets/c20ed266-1d74-4add-8ae2-acc191d1e1a9" />
+<img width="1192" height="673" alt="image" src="https://github.com/user-attachments/assets/c20ed266-1d74-4add-8ae2-acc191d1e1a9" />
+<img width="1206" height="678" alt="image" src="https://github.com/user-attachments/assets/f58b7520-4fa3-45c6-900a-6ae228c64022" />
+<img width="1206" height="677" alt="image" src="https://github.com/user-attachments/assets/b1879cff-fe1e-41d1-b2fd-cdca979d5c61" />
 
 
 

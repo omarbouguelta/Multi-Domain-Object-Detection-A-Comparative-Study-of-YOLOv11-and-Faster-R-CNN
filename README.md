@@ -89,7 +89,7 @@ The research concludes that:
 ##  Implementation & Experimental Demos
 
 This repository provides a complete end-to-end pipeline, from camouflaged dataset training to real-world inference.
-
+<br> <a href="https://drive.google.com/file/d/1UrSWufEi__7LWddw_j7Xks9RRu6uZ-5w/view?usp=sharing"> download Scrorpion detection model here </a>
 ### 1. Training Workflow (Scorpion Dataset)
 * **[Scorpion Training Pipeline](./RCNN/scorpion_training_faster_rcnn.ipynb):** Comprehensive training script utilizing Faster R-CNN with a ResNet-50 backbone. 
   * **Highlights:** Custom loss tracking (RPN vs. Classification), data augmentation for low-salience targets, and loss convergence visualization.
